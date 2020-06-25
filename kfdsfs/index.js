@@ -26,4 +26,4 @@ bttn.type = 'button';
 const speaker = speak();
 bttn.addEventListener('click', () => { speaker.start(); });
 
-document.body.append(bttn, speech)
+document.body.append(bttn, speech);
